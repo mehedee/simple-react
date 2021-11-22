@@ -16,7 +16,7 @@ const Counter = () => {
         <div id='counterContainer'>
             <h1>Counter</h1>
 
-            <p>Current count: <strong>{count}</strong></p>
+            <p>Current count: <strong><span title='count'>{count}</span></strong></p>
 
             <button className='link' onClick={increment}>+</button>
             <button className='link' onClick={decrement}>-</button>
