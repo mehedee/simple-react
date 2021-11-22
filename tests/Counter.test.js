@@ -39,7 +39,7 @@ test("clicking - should decrease the value by 1", () => {
 test("clicking - when the value is 0 should not change to negative value", () => {
     render(<Router><Counter/></Router>);
     const minusButton = screen.getByRole('button', {name: '-'});
-
+    userEvent.click(minusButton);
     const value = screen.getByTitle("count");
     if (value === '0') {
         // eslint-disable-next-line jest/no-conditional-expect
