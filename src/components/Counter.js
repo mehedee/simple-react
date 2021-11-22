@@ -13,7 +13,7 @@ const Counter = () => {
         setCount(count - 1);
     }
     return (
-        <div>
+        <div id='counterContainer'>
             <h1>Counter</h1>
 
             <p>Current count: <strong>{count}</strong></p>
@@ -22,7 +22,7 @@ const Counter = () => {
             <button className='link' onClick={decrement}>-</button>
 
             <div className="options">
-                {/*<Link className="link" exact to='/'>Back to home</Link>*/}
+                <Link className="link"  to='/'>Back to home</Link>
             </div>
 
         </div>

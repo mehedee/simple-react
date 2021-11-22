@@ -7,7 +7,7 @@ const About = ({toolName})=>{
             <p>Simple app to test GUI basic with {toolName}</p>
 
             <p>
-                <Link className='link' exact to='/'>Home</Link>
+                <Link className='link' to='/'>Home</Link>
             </p>
         </div>
     )
