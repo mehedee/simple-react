@@ -8,6 +8,7 @@ const Landing = ({toolName}) => {
             </div>
 
             <div className="options">
+                <Link className='link' to="/counter">Simple Counter</Link>
                 <Link className='link' to="/login">Login</Link>
                 <Link className='link' to="/register">Register</Link>
                 <Link className='link' to="/about">About</Link>
