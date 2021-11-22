@@ -42,6 +42,11 @@
     "react-test-renderer": "^17.0.2"
   },
   "jest": {
-    "testRegex": "tests/.*\\.(js|jsx)$"
+    "testRegex": "tests/.*\\.(js|jsx)$",
+    "verbose": true,
+    "rootDir": "./",
+    "moduleNameMapper": {
+      "^.+\\.(css|less)$": "<rootDir>/config/CSSStub.js"
+    }
   }
 }
