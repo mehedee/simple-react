@@ -51,7 +51,7 @@ a{
   border: 1px solid gray;
   text-decoration: none;
   transition-property: background, border, border-radius;
-  transition-duration: .3s;
+  transition-duration: .1s;
   transition-timing-function: linear;
 }
 
@@ -61,7 +61,7 @@ a{
   border-bottom-left-radius: 12px;
   border-top-right-radius: 12px;
   transition-property: background, border, border-radius;
-  transition-duration: .3s;
+  transition-duration: .1s;
   transition-timing-function: linear;
 }
 
