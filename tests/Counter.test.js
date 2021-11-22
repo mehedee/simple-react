@@ -15,7 +15,7 @@ test('renders Counter title', () => {
 
 test("clicking counter button takes to counter page",()=>{
     render(<Router><App/></Router>);
-    userEvent.click(screen.getByRole('button',{name: 'Counter'}));
+    userEvent.click(screen.getByRole('link',{name: 'Counter'}));
     const location  = window.location.pathname;
-    expect(location).toBe("counter");
+    expect(location).toBe("/counter");
 });
